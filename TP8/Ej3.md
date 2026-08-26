@@ -5,7 +5,7 @@ flowchart LR
         Browser["<<entorno de ejecución>>\nNavegador Web\nHTML / CSS / JavaScript"]
     end
 
-    subgraph APP["<<dispositivo>> servidor de Aplicaciones"]
+    subgraph APP["<<dispositivo>> Servidor de Aplicaciones"]
         API["<<componente>>\nREST API"]
         Cliente["<<componente>>\nCliente"]
         Ticket["<<componente>>\nTicket"]
